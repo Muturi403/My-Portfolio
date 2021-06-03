@@ -102,7 +102,7 @@
 section{
     padding: 100px 0;
 }
-.about{
+.about ,.projects{
     font-family: sans-serif;
 }
 
@@ -152,6 +152,56 @@ section{
     text-align: justify;
 }
 
+/*projects styling*/
+.projects .project-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects{
+    background: black;
+    color: white;
+}
+
+.projects .title{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    font-weight: bolder;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+.projects .project-content .card{
+    width: calc(33% - 20px);
+    background-color: #222;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.projects .project-content .card:hover{
+    background: crimson;
+}
+
+.projects .project-content .card .box{
+    transition: all 0.3s ease;
+}
+
+.projects .project-content .card:hover .box{
+    transform: scale(1.05);
+}
+
+.projects .project-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
 
 /* responsive media */
 @media (max-width: 947px){
