@@ -203,6 +203,57 @@ section{
     margin: 10px 0 7px 0;
 }
 
+/*skills styling*/
+.skills{
+    font-family: sans-serif;
+}
+
+.skills .skills-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .title{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    font-weight: bolder;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+.skills .skills-content .left .text{
+    margin-bottom: 10px;
+    font-weight: 600px;
+    font-size: 25px;
+}
+
+.skills .skills-content .left p{
+    text-align: justify;
+}
+
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+
+.skills .skills-content .right .info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
 /* responsive media */
 @media (max-width: 947px){
     .max-width{
