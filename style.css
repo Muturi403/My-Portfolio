@@ -207,12 +207,12 @@ section{
     margin: 10px 0 7px 0;
 }
 
-/*skills styling*/
-.skills{
+/*Gallery styling*/
+.gallery{
     font-family: sans-serif;
 }
 
-.skills .title{
+.gallery .title{
     font-family: sans-serif;
     text-align: center;
     font-size: 40px;
@@ -222,7 +222,7 @@ section{
     padding-bottom: 20px;
 }
 
-.skills .skills-content .column{
+.gallery .gallery-content .column{
     border-radius: 6px;
     text-align: center;
     padding: 25px 35px;
@@ -230,25 +230,25 @@ section{
     transition: all 0.3s ease;
 }
 
-.skills .skills-content .column:hover{
+.gallery .gallery-content .column:hover{
     background: crimson;
 }
 
-.skills .skills-content .column .box{
+.gallery .gallery-content .column .box{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.skills .skills-content .column .text{
+.gallery .gallery-content .column .text{
     font-weight: 500px;
     font-size: 25px;
     margin: 10px 0 7px 0;
     color: #fff;
 }
 
-.skills .skills-content .column img{
+.gallery .gallery-content .column img{
     width: 150px;
     border-radius: 50%;
     border: 5px solid crimson;
@@ -256,7 +256,7 @@ section{
     object-fit: cover;
 }
 
-.skills .skills-content .column:hover img{
+.gallery .gallery-content .column:hover img{
     border-color: white;
 }
 
