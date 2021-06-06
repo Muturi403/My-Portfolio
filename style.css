@@ -327,6 +327,10 @@ footer span a{
     color: crimson;
 }
 
+footer span{
+    margin-left: 600px;
+}
+
 /* responsive media */
 @media (max-width: 947px){
     .max-width{
