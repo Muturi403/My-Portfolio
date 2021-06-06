@@ -67,7 +67,7 @@ html{
 /*home styling*/
 .home{
     display: flex;
-    background-image: url('/images/denis\(2\).jpg');
+    background-image: url('images/denis\(2\).jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
