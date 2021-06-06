@@ -37,7 +37,7 @@ html{
 }
 
 .navbar .logo a span{
-    color: crimson;
+    color: rgba(223, 10, 223, 0.76);
 }
 
 .navbar .menu li{
@@ -54,7 +54,7 @@ html{
 }
 
 .navbar .menu li a:hover{
-    color: crimson;
+    color: rgba(223, 10, 223, 0.76);
 }
 
 /*menu-btn styling*/
@@ -98,7 +98,7 @@ html{
 }
 
 .home .home-content .text-3 span{
-    color: crimson;
+    color: rgba(223, 10, 223, 0.76);
     font-weight: 500px;
 }
 
@@ -149,7 +149,7 @@ section{
 }
 
 .about .about-content .right .text span{
-    color: crimson;
+    color: rgba(223, 10, 223, 0.76);
 }
 
 .about .about-content .right p{
@@ -190,7 +190,7 @@ section{
 }
 
 .projects .project-content .card:hover{
-    background: crimson;
+    background: rgba(223, 10, 223, 0.76);
 }
 
 .projects .project-content .card .box{
@@ -231,7 +231,7 @@ section{
 }
 
 .gallery .gallery-content .column:hover{
-    background: crimson;
+    background: rgba(223, 10, 223, 0.76);
 }
 
 .gallery .gallery-content .column .box{
@@ -251,7 +251,7 @@ section{
 .gallery .gallery-content .column img{
     width: 150px;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid rgba(223, 10, 223, 0.76);
     height: 150px;
     object-fit: cover;
 }
@@ -324,7 +324,7 @@ footer{
 }
 
 footer span a{
-    color: crimson;
+    color: rgba(223, 10, 223, 0.76)
 }
 
 footer span{
